@@ -1,4 +1,5 @@
 import { CategoryInfo, MenuItem, StoreSettings } from '../types/menu';
+import { kidsMealImage, wrapsImage, beveragesImage } from '../assets/images';
 
 export const CATEGORIES: CategoryInfo[] = [
   { id: 'all', name: 'All Items', subtitle: 'Full Food & Beverage Collection', icon: 'Utensils' },
@@ -33,7 +34,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     category: 'kids_meal',
     price: 6.49,
     description: 'Creamy macaroni pasta with rich melted cheddar sauce, baked to golden bubbling perfection.',
-    image: '/src/assets/images/kids_meal_platter_1794284846453.jpg',
+    image: kidsMealImage,
     isAvailable: true,
     isPopular: true,
   },
@@ -83,7 +84,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     category: 'wraps',
     price: 8.99,
     description: 'Warm grilled flour tortilla stuffed with premium smoked ham, melted cheddar cheese, and garden greens.',
-    image: '/src/assets/images/artisan_wraps_display_1794284852514.jpg',
+    image: wrapsImage,
     isAvailable: true,
     isPopular: true,
   },
@@ -182,7 +183,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     category: 'iced_ade',
     price: 5.99,
     description: 'Sparkling effervescent soda with freshly hand-squeezed sun lemon juice and fragrant garden mint.',
-    image: '/src/assets/images/colorful_beverages_1794284853539.jpg',
+    image: beveragesImage,
     isAvailable: true,
     isPopular: true,
   },

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Search, Send, Clock, MapPin, CheckCircle2 } from 'lucide-react';
 import { StoreSettings } from '../types/menu';
+import { heroImage } from '../assets/images';
 
 interface HeroBannerProps {
   settings: StoreSettings;
@@ -20,7 +21,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
       {/* Background Hero Image with measured contrast scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_wonderland_cafe_1794284846606.jpg"
+          src={heroImage}
           alt="Wonderland Indoor Playground & Cafe Counter"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center brightness-75 scale-105 transform hover:scale-100 transition-transform duration-1000 ease-out"

@@ -12,6 +12,7 @@ import { OrderSuccessModal } from './components/OrderSuccessModal';
 import { FloatingCartButton } from './components/FloatingCartButton';
 import { CATEGORIES } from './data/initialMenu';
 import { MenuCategory, MenuItem } from './types/menu';
+import { kidsMealImage, wrapsImage, beveragesImage } from './assets/images';
 import {
   UtensilsCrossed,
   Sparkles,
@@ -129,7 +130,7 @@ export default function App() {
               className="group relative h-48 rounded-2xl overflow-hidden cursor-pointer shadow-xs border border-stone-200 transition-all hover:shadow-md"
             >
               <img
-                src="/src/assets/images/kids_meal_platter_1794284846453.jpg"
+                src={kidsMealImage}
                 alt="Kids Meal Favorites"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -152,7 +153,7 @@ export default function App() {
               className="group relative h-48 rounded-2xl overflow-hidden cursor-pointer shadow-xs border border-stone-200 transition-all hover:shadow-md"
             >
               <img
-                src="/src/assets/images/artisan_wraps_display_1794284852514.jpg"
+                src={wrapsImage}
                 alt="Artisan Wraps"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -175,7 +176,7 @@ export default function App() {
               className="group relative h-48 rounded-2xl overflow-hidden cursor-pointer shadow-xs border border-stone-200 transition-all hover:shadow-md"
             >
               <img
-                src="/src/assets/images/colorful_beverages_1794284853539.jpg"
+                src={beveragesImage}
                 alt="Fruit Ades & Slush"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
