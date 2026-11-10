@@ -1,0 +1,6 @@
+{
+  "name": "Wonderland Food & Beverage",
+  "description": "Interactive digital menu for Wonderland Play & Party with automated WhatsApp ordering and real-time admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
